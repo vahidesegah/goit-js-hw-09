@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
 }
 
 .button-30 {
@@ -13,15 +13,13 @@ body {
   background-color: #ffffff;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #36395a;
+  color: #000000;
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono", monospace;
-  height: 48px;
-  justify-content: center;
+  height: 12px;
+  justify-content: left;
   line-height: 1;
   list-style: none;
   overflow: hidden;
@@ -39,28 +37,16 @@ body {
   font-size: 18px;
 }
 
-.button-30:focus {
-  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
 .button-30:active {
-  box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }
 
 .index-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: left;
+  align-items:normal;
+  height: 0%;
   overflow: hidden;
   gap: 30px;
 }
