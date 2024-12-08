@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#bdc3c7, #2c3e50);
+  background-image: linear-gradient(#ffffff, #ffffff);
   height: 100vh;
   overflow: hidden;
 }
@@ -49,7 +49,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* ----------------------------------------------------------------------------- */
+
 
 .gallery {
   max-width: 1080px;

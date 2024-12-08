@@ -24,7 +24,7 @@ form.addEventListener('submit', e => {
   const message = formTextArea.value.trim();
 
   if (!email || !message) {
-    alert('Formda boş alanlar var! Lütfen tüm alanları doldurun.');
+    alert('Lütfen tüm alanları doldurun!');
     return;
   }
 
