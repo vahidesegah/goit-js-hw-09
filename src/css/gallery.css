@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#bdc3c7, #2c3e50);
+  height: 100vh;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------------------------------------------------------------------- */
+
+.gallery {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 82px;
+}
+
+.gallery-item {
+  width: 305px;
+  transition: 0.2s ease-in;
+}
+
+.gallery-item:hover {
+  scale: 1.1;
+}
+
+.gallery-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.back-arrow {
+  font-size: 50px;
+  position: absolute;
+  left: 50px;
+}
